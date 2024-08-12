@@ -3,6 +3,7 @@ import { Context, ContextPref, ContextPrefMemo, ContextPrefSelector } from './co
 
 import Counter from "./features/counter/Counter";
 import PostsList from './features/posts/PostsList';
+import User from './features/user/User';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       {/* <ContextPrefMemo /> */}
       {/* <ContextPrefSelector /> */}
       {/* <PostsList /> */}
+      {/* <User /> */}
     </>
   );
 }
